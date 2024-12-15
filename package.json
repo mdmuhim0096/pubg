@@ -1,11 +1,13 @@
 {
   "name": "vite-project",
   "private": true,
+  "homepage": "https://mdmuhim0096.github.io/pubg/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
